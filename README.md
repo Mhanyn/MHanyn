@@ -21,17 +21,13 @@ Welcome to my GitHub profile! I'm a passionate Software Engineer Student who lov
 
 Here are a few projects I've worked on:
 
-Project 1: Breast Cancer Predictor
-
-Project Name: Breast Cancer Prediction using Logistic Regression and KNN https://github.com/Mhanyn/breast-cancer-predictor
+Project 1: Breast Cancer Predictor - https://github.com/Mhanyn/breast-cancer-predictor
 
 Description:  This project develops and evaluates machine learning models (Logistic Regression and K-Nearest Neighbors) for classifying breast cancer as malignant or benign based on cell nuclei features. The project emphasizes data preprocessing, hyperparameter tuning using GridSearchCV, and comprehensive performance evaluation using metrics such as accuracy, precision, recall, F1-score, and AUC-ROC.
 
 Tech Stack: Python (Pandas, Matplotlib, Seaborn, Scikit-learn), Git
 
-Project 2: N-Queens Solver
-
-Project Name: N-Queens Solver https://github.com/Mhanyn/n-queens-solver
+Project 2: N-Queens Solver - https://github.com/Mhanyn/n-queens-solver
 
 Description: This project implements and compares two algorithms (Exhaustive Search and a Genetic Algorithm) for solving the classic N-Queens problem in computer science. It analyzes their efficiency and effectiveness across various board sizes, providing insights into the trade-offs between exhaustive search and heuristic approaches for solving combinatorial optimization problems.
 
