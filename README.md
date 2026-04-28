@@ -148,7 +148,7 @@ Benchmarked DFS and GA across increasing board sizes and pinpointed the exact cr
 
 ## 📬 Say hi
 
-Always glad to hear from people working in AI, ML engineering, or anything where the data is messy and the margin for error is low.
+Always glad to hear from people working in AI, ML engineering, or anything related to data.
 
 📧 [mar.hanyn@gmail.com](mailto:mar.hanyn@gmail.com)
 
