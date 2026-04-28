@@ -1,9 +1,9 @@
 <!-- HEADER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Meryem%20Hanyn&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=45&desc=AI%20Engineer%20%7C%20Medical%20Imaging%20%7C%20Luxembourg&descAlignY=65&descSize=16" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Meryem%20Hanyn&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=45&desc=AI%20Engineer%20%7C%20Machine%20Learning%20%7C%20Luxembourg&descAlignY=65&descSize=16" width="100%"/>
 </div>
 
-<h3 align="center">AI Engineer &nbsp;·&nbsp; Medical Imaging Research &nbsp;·&nbsp; Few-Shot Learning &nbsp;·&nbsp; Uncertainty-Aware AI</h3>
+<h3 align="center">AI Engineer &nbsp;·&nbsp; Machine Learning &nbsp;·&nbsp; Software Engineering</h3>
 
 <div align="center">
   <a href="mailto:mar.hanyn@gmail.com">
@@ -18,11 +18,11 @@
 
 ## About Me
 
-**AI Engineer** based in Luxembourg, focused on medical imaging and clinical AI. <br/>
-**Master's Researcher** building few-shot learning systems for rare disease detection. <br/>
+**AI Engineer** based in Luxembourg. <br/>
+**Master's Researcher** focused on clinical AI and few-shot learning. <br/>
 **Former IT Project Manager** who crossed over to the building side — and never looked back. <br/>
 **Drawn to hard problems** where data is scarce, stakes are high, and the model needs to know what it doesn't know. <br/>
-**Open to collaboration** on healthcare AI, rare disease research, and anything where explainability matters.
+**Open to collaboration** on healthcare AI, ML engineering, and anything where explainability matters.
 
 > *"The most interesting question isn't whether a model is accurate — it's whether it knows when it's wrong."*
 
@@ -34,7 +34,7 @@
 
 **The problem:** rare renal tumours don't have thousands of labelled scans. You can't just throw data at it.
 
-Built a unified pipeline that learns from very few examples using episodic meta-learning (Prototypical Networks), trained on the multi-centre **KiTS23** dataset (599 cases, 123 hospitals). Crucially — the model uses **Monte Carlo Dropout** to flag ambiguous cases for human review instead of silently getting them wrong. Integrated Grad-CAM for spatial explainability so predictions can be inspected visually.
+Built a unified pipeline that learns from very few examples using episodic meta-learning (Prototypical Networks), trained on the multi-centre **KiTS23** dataset (599 cases, 123 hospitals). The model uses **Monte Carlo Dropout** to flag ambiguous cases for human review instead of silently getting them wrong. Integrated Grad-CAM for spatial explainability so predictions can be inspected visually.
 
 The combination of episodic meta-learning + Bayesian uncertainty + spatial explainability on a realistic multi-centre cohort hadn't been done before. That gap was the whole motivation.
 
@@ -44,22 +44,22 @@ The combination of episodic meta-learning + Bayesian uncertainty + spatial expla
 
 ### 🧠 Alzheimer's Disease Staging from Structural MRI *(2025)*
 
-Four-stage Alzheimer's classification from 6,400 MRI scans. Benchmarked a custom CNN against ResNet50 and EfficientNetB0 — the custom architecture won at **93% accuracy, macro F1 of 0.93**. Then ran Grad-CAM on the predictions and found activations consistently landing on the hippocampus and ventricles — exactly what the neuroscience literature expects. That alignment between model attention and established neuropathology is what makes AI trustworthy in a clinical setting.
+Four-stage Alzheimer's classification from 6,400 MRI scans. Benchmarked a custom CNN against ResNet50 and EfficientNetB0 — the custom architecture won at **93% accuracy, macro F1 of 0.93**. Grad-CAM analysis showed activations consistently landing on the hippocampus and ventricles — matching established neuropathology. That alignment is what makes AI trustworthy in a clinical setting.
 
 `Python` `TensorFlow/Keras` `Custom CNN` `ResNet50` `EfficientNetB0` `Grad-CAM`
 
 ---
 
-## 💻 Projects
+### 🧬 Brain Tumor Detection from MRI — CNN-Based Diagnosis *(2024–2025)*
+[github.com/Mhanyn/Brain-Tumor-Detector](https://github.com/Mhanyn/Brain-Tumor-Detector)
 
-### 🧬 [Brain Tumor Detector](https://github.com/Mhanyn/Brain-Tumor-Detector)
-**CNN-based MRI classification — Glioma · Meningioma · Pituitary · Healthy**
+Research project comparing custom and pre-trained architectures for 4-class brain MRI classification (Glioma, Meningioma, Pituitary, Healthy). The custom CNN reached **99.25% test accuracy**, outperforming DenseNet201 and Xception. Full evaluation suite including per-class precision, recall, F1, confusion matrices and ROC curves.
 
-Built a custom CNN from scratch and benchmarked it against DenseNet201 and Xception. The custom model hit **99.25% test accuracy** and outperformed both transfer learning baselines. The project that first pulled me into medical imaging.
-
-`Python` `TensorFlow/Keras` `CNN` `DenseNet201` `Xception`
+`Python` `TensorFlow/Keras` `CNN` `DenseNet201` `Xception` `Google Colab`
 
 ---
+
+## 💻 Projects
 
 ### 🎗️ [Breast Cancer Predictor](https://github.com/Mhanyn/breast-cancer-predictor)
 **Binary malignancy classification on cell nuclei features**
@@ -76,6 +76,24 @@ Logistic Regression vs. KNN with GridSearchCV hyperparameter tuning. Evaluated o
 Random Forest classifier on lifestyle biomarker data, serialised and served as a live Flask REST API with a StandardScaler preprocessing pipeline. The full trip from notebook to something that actually runs.
 
 `Python` `Scikit-learn` `Random Forest` `Flask`
+
+---
+
+### 🧠 Hybrid Parallel K-Means Clustering on High-Dimensional Personality Data
+**HPC — MPI/OpenMP implementation of parallelised K-Means**
+
+Implemented a hybrid parallel K-Means clustering algorithm combining MPI for inter-node communication and OpenMP for intra-node threading. Designed to handle high-dimensional personality trait datasets, with performance benchmarked against a sequential baseline to quantify speedup across varying core counts and node configurations.
+
+`C` `MPI` `OpenMP` `High-Performance Computing` `Parallel Algorithms`
+
+---
+
+### 🖼️ Parallel Image Blurring — Synchronization, Communication & Performance Study
+**HPC — performance analysis of distributed image processing**
+
+Research project analysing the performance trade-offs in parallel image blurring across different parallelisation strategies. Evaluated synchronization overhead, communication patterns, and load balancing across processes to understand how data distribution and inter-process communication impact scalability on multi-core and distributed systems.
+
+`C` `MPI` `OpenMP` `High-Performance Computing` `Performance Analysis`
 
 ---
 
@@ -122,15 +140,6 @@ Benchmarked DFS and GA across increasing board sizes and pinpointed the exact cr
 
 ---
 
-## 📝 Some things I've written
-
-- *Bridging Precision and Clinical Applicability* — CNN-Based Diagnosis of Brain Tumors
-- *Hybrid Parallel K-Means Clustering on High-Dimensional Personality Data* — MPI/OpenMP
-- *Parallel Image Blurring: A Study on Synchronization, Communication, and Performance*
-- *A Research on Solving the N-Queens Problem using Exhaustive Search and Genetic Algorithm*
-
----
-
 ## 🌍 Languages
 
 `English` &nbsp; `French` &nbsp; `Arabic` &nbsp; `Spanish` &nbsp; `German`
@@ -139,7 +148,7 @@ Benchmarked DFS and GA across increasing board sizes and pinpointed the exact cr
 
 ## 📬 Say hi
 
-Always glad to hear from people working on healthcare AI, rare disease problems, or anything where the data is messy and the margin for error is low.
+Always glad to hear from people working on healthcare AI, ML engineering, or anything where the data is messy and the margin for error is low.
 
 📧 [mar.hanyn@gmail.com](mailto:mar.hanyn@gmail.com)
 
