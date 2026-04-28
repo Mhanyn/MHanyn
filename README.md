@@ -5,7 +5,7 @@
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=Hey+there!+I'm+Meryem+%F0%9F%91%8B;I+build+AI+that+works+in+the+real+world;Medical+imaging+%7C+Few-shot+learning+%7C+PyTorch;Based+in+Luxembourg+%F0%9F%87%B1%F0%9F%87%BA" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=A855F7&center=true&vCenter=true&width=650&lines=Hey+there!+I'm+Meryem+%F0%9F%91%8B;I+build+AI+that+works+in+the+real+world; Based+in+Luxembourg+%F0%9F%87%B1%F0%9F%87%BA" alt="Typing SVG" />
   </a>
 </div>
 
@@ -22,13 +22,9 @@
 
 ## 👋 Hey, I'm Meryem
 
-I'm an AI engineer based in Luxembourg with a background that's a bit of an unusual mix — I spent several years managing IT and digital transformation projects at a large bank, and at some point decided I wanted to be the one *building* the systems, not just shipping them.
+I'm an AI engineer based in Luxembourg with a background that's a bit of an unusual mix, I spent several years managing IT and digital transformation projects at a large bank, and at some point decided I wanted to be the one *building* the systems, not just shipping them.
 
-So I went back to school, did a Master's in Software Engineering, and ended up deep in medical imaging research. My thesis is on few-shot learning for rare kidney disease detection — basically, teaching a model to classify tumours it's barely seen before, using as little data as possible, while also being honest about when it's uncertain. Turns out that last part (the honesty) is really hard to get right, and really important when a doctor is on the other end.
-
-I'm particularly drawn to problems at the intersection of **clinical AI and real-world constraints** — rare diseases, small datasets, models that need to be explainable, systems that need to actually be trusted by the humans using them.
-
-When I'm not training models, you'll find me doing yoga, reading about neuroscience, or hiking somewhere in Luxembourg's surprisingly good trails 🥾
+So I went back to school, did a Master's in Software Engineering, and ended up deep in the AI world.
 
 ---
 
