@@ -20,17 +20,17 @@
 
 **AI Engineer** based in Luxembourg. <br/>
 **Master's Researcher** focused on clinical AI and few-shot learning. <br/>
-**Former IT Project Manager** who crossed over to the building side — and never looked back. <br/>
+**Former IT Project Manager** who crossed over to the building side, and never looked back. <br/>
 **Drawn to hard problems** where data is scarce, stakes are high, and the model needs to know what it doesn't know. <br/>
-**Open to collaboration** on healthcare AI, ML engineering, and anything where explainability matters.
+**Open to collaboration** on AI, ML engineering, and anything where explainability matters.
 
-> *"The most interesting question isn't whether a model is accurate — it's whether it knows when it's wrong."*
+> *"The most interesting question isn't whether a model is accurate, it's whether it knows when it's wrong."*
 
 ---
 
 ## 🔬 Research
 
-### 🫁 Few-Shot Learning for Rare Kidney Disease Detection *(Thesis — 2025–2026)*
+### 🫁 Few-Shot Learning for Rare Kidney Disease Detection
 
 **The problem:** rare renal tumours don't have thousands of labelled scans. You can't just throw data at it.
 
@@ -42,7 +42,7 @@ The combination of episodic meta-learning + Bayesian uncertainty + spatial expla
 
 ---
 
-### 🧠 Alzheimer's Disease Staging from Structural MRI *(2025)*
+### 🧠 Alzheimer's Disease Staging from Structural MRI
 
 Four-stage Alzheimer's classification from 6,400 MRI scans. Benchmarked a custom CNN against ResNet50 and EfficientNetB0 — the custom architecture won at **93% accuracy, macro F1 of 0.93**. Grad-CAM analysis showed activations consistently landing on the hippocampus and ventricles — matching established neuropathology. That alignment is what makes AI trustworthy in a clinical setting.
 
@@ -50,7 +50,7 @@ Four-stage Alzheimer's classification from 6,400 MRI scans. Benchmarked a custom
 
 ---
 
-### 🧬 Brain Tumor Detection from MRI — CNN-Based Diagnosis *(2024–2025)*
+### 🧬 Brain Tumor Detection from MRI — CNN-Based Diagnosis
 [github.com/Mhanyn/Brain-Tumor-Detector](https://github.com/Mhanyn/Brain-Tumor-Detector)
 
 Research project comparing custom and pre-trained architectures for 4-class brain MRI classification (Glioma, Meningioma, Pituitary, Healthy). The custom CNN reached **99.25% test accuracy**, outperforming DenseNet201 and Xception. Full evaluation suite including per-class precision, recall, F1, confusion matrices and ROC curves.
@@ -148,7 +148,7 @@ Benchmarked DFS and GA across increasing board sizes and pinpointed the exact cr
 
 ## 📬 Say hi
 
-Always glad to hear from people working on healthcare AI, ML engineering, or anything where the data is messy and the margin for error is low.
+Always glad to hear from people working in AI, ML engineering, or anything where the data is messy and the margin for error is low.
 
 📧 [mar.hanyn@gmail.com](mailto:mar.hanyn@gmail.com)
 
