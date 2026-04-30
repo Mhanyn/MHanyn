@@ -44,7 +44,7 @@ The combination of episodic meta-learning + Bayesian uncertainty + spatial expla
 
 ### 🧠 Alzheimer's Disease Staging from Structural MRI
 
-Four-stage Alzheimer's classification from 6,400 MRI scans. Benchmarked a custom CNN against ResNet50 and EfficientNetB0 — the custom architecture won at **93% accuracy, macro F1 of 0.93**. Grad-CAM analysis showed activations consistently landing on the hippocampus and ventricles — matching established neuropathology. That alignment is what makes AI trustworthy in a clinical setting.
+Four-stage Alzheimer's classification from 6,400 MRI scans. Benchmarked a custom CNN against ResNet50 and EfficientNetB0 — the custom architecture won at **93% accuracy, macro F1 of 0.93**. Grad-CAM analysis showed activations consistently landing on the hippocampus and ventricles, matching established neuropathology. That alignment is what makes AI trustworthy in a clinical setting.
 
 `Python` `TensorFlow/Keras` `Custom CNN` `ResNet50` `EfficientNetB0` `Grad-CAM`
 
