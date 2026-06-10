@@ -1,6 +1,6 @@
 <!-- HEADER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Meryem%20Hanyn&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=45&desc=AI%20Engineer%20%7C%20Machine%20Learning%20%7C%20Luxembourg&descAlignY=65&descSize=16" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Meryem%20Hanyn" width="100%"/>
 </div>
 
 <h3 align="center"> Data & AI Engineering &nbsp;·&nbsp; Machine Learning &nbsp;·&nbsp; Software Engineering</h3>
