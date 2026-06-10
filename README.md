@@ -50,35 +50,6 @@ Four-stage Alzheimer's classification from 6,400 MRI scans. Benchmarked a custom
 
 ---
 
-### 🧬 Brain Tumor Detection from MRI — CNN-Based Diagnosis
-[github.com/Mhanyn/Brain-Tumor-Detector](https://github.com/Mhanyn/Brain-Tumor-Detector)
-
-Research project comparing custom and pre-trained architectures for 4-class brain MRI classification (Glioma, Meningioma, Pituitary, Healthy). The custom CNN reached **99.25% test accuracy**, outperforming DenseNet201 and Xception. Full evaluation suite including per-class precision, recall, F1, confusion matrices and ROC curves.
-
-`Python` `TensorFlow/Keras` `CNN` `DenseNet201` `Xception` `Google Colab`
-
----
-
-## 💻 Projects
-
-### 🎗️ [Breast Cancer Predictor](https://github.com/Mhanyn/breast-cancer-predictor)
-**Binary malignancy classification on cell nuclei features**
-
-Logistic Regression vs. KNN with GridSearchCV hyperparameter tuning. Evaluated on AUC-ROC and stratified F1. Clean end-to-end pipeline from preprocessing through evaluation.
-
-`Python` `Scikit-learn` `Pandas` `Seaborn` `GridSearchCV`
-
----
-
-### 🚭 [Smoking & Drinking Predictor](https://github.com/Mhanyn/smoking-drinking-predictor)
-**End-to-end deployed health prediction app**
-
-Random Forest classifier on lifestyle biomarker data, serialised and served as a live Flask REST API with a StandardScaler preprocessing pipeline. The full trip from notebook to something that actually runs.
-
-`Python` `Scikit-learn` `Random Forest` `Flask`
-
----
-
 ### 🧠 Hybrid Parallel K-Means Clustering on High-Dimensional Personality Data
 **HPC — MPI/OpenMP implementation of parallelised K-Means**
 
@@ -94,15 +65,6 @@ Implemented a hybrid parallel K-Means clustering algorithm combining MPI for int
 Research project analysing the performance trade-offs in parallel image blurring across different parallelisation strategies. Evaluated synchronization overhead, communication patterns, and load balancing across processes to understand how data distribution and inter-process communication impact scalability on multi-core and distributed systems.
 
 `C` `MPI` `OpenMP` `High-Performance Computing` `Performance Analysis`
-
----
-
-### ♟️ [N-Queens Solver](https://github.com/Mhanyn/n-queens-solver)
-**Exhaustive Search vs. Genetic Algorithm — where does brute force break down?**
-
-Benchmarked DFS and GA across increasing board sizes and pinpointed the exact crossover where exact search becomes computationally hopeless and heuristics take over. Classic CS, but satisfying to measure precisely.
-
-`Python`
 
 ---
 
